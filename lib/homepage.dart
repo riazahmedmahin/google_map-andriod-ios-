@@ -14,6 +14,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       body: GoogleMap(
         initialCameraPosition: CameraPosition(
+
           zoom: 17,
             target: LatLng(22.362202704107073, 91.82226580438147),
           bearing: 5
